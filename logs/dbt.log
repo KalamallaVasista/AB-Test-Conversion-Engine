@@ -1,0 +1,58 @@
+[0m23:22:37.858577 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8127327B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E81521FD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E81521F9D0>]}
+
+
+============================== 23:22:37.871564 | 4b531cf9-a46b-45c3-9328-0f2ae16372c2 ==============================
+[0m23:22:37.871564 [info ] [MainThread]: Running with dbt=1.7.20
+[0m23:22:37.873002 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\vasik\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init ab_test_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m23:22:37.874048 [warn ] [MainThread]: [[33mWARNING[0m]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. Please upgrade to a newer supported version of dbt for new projects: https://docs.getdbt.com/docs/dbt-versions?utm_source=dbt-cli
+[0m23:22:37.874993 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': '4b531cf9-a46b-45c3-9328-0f2ae16372c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8150CDF30>]}
+[0m23:22:37.877281 [debug] [MainThread]: Starter project path: C:\Users\vasik\AB-Test-Conversion-Engine\venv\Lib\site-packages\dbt\include\starter_project
+[0m23:22:37.938132 [info ] [MainThread]: 
+Your new dbt project "ab_test_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:22:37.939598 [info ] [MainThread]: Setting up your profile.
+[0m23:22:41.157547 [debug] [MainThread]: Command `dbt init` succeeded at 23:22:41.157107 after 3.53 seconds
+[0m23:22:41.158437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E815403460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E815403570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8152A4250>]}
+[0m23:22:41.159261 [debug] [MainThread]: Flushing usage events
+[0m23:36:40.044020 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E96F327B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E99A0FD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E99A0F9D0>]}
+
+
+============================== 23:36:40.050522 | 8252d599-95eb-4188-9351-e866a1c90a25 ==============================
+[0m23:36:40.050522 [info ] [MainThread]: Running with dbt=1.7.20
+[0m23:36:40.051411 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\vasik\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init ab_test_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m23:36:40.051953 [warn ] [MainThread]: [[33mWARNING[0m]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. Please upgrade to a newer supported version of dbt for new projects: https://docs.getdbt.com/docs/dbt-versions?utm_source=dbt-cli
+[0m23:36:40.052523 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': '8252d599-95eb-4188-9351-e866a1c90a25', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E998B9F30>]}
+[0m23:36:40.053878 [debug] [MainThread]: Starter project path: C:\Users\vasik\AB-Test-Conversion-Engine\venv\Lib\site-packages\dbt\include\starter_project
+[0m23:36:40.085819 [info ] [MainThread]: 
+Your new dbt project "ab_test_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:36:40.086918 [info ] [MainThread]: Setting up your profile.
+[0m23:38:45.860648 [debug] [MainThread]: Command `dbt init` succeeded at 23:38:45.860339 after 126.03 seconds
+[0m23:38:45.861177 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E99CE3460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E99CE3570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E99A9C250>]}
+[0m23:38:45.861612 [debug] [MainThread]: Flushing usage events

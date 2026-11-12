@@ -1,0 +1,5 @@
+version: 2
+sources:
+  - name: ab_testing
+    tables:
+      - name: raw_ab_test
